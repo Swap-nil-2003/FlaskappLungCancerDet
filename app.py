@@ -90,4 +90,4 @@ def createApp():
                 return jsonify({'prediction': label})
             else:
                 return jsonify({'error': 'Error making the prediction'})
-return app
+    return app
