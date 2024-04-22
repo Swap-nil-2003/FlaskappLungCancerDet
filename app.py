@@ -39,7 +39,7 @@ def createApp():
             print(f"Error loading the model: {e}")
             return None
     
-    model_path = 'Flaskapp/model_ResNet50_best.h5'  # Update the model path
+    model_path = 'FlaskappLungCancerDet/model_ResNet50_best.h5'  # Update the model path
     model = load_model(model_path)
     
     # Image preprocessing function
